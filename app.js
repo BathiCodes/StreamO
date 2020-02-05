@@ -32,7 +32,7 @@ app.get('/:id', (req,res) => {
             rs.pipe(res);
         }
     }catch(err){
-        res.send('BAD REUEST');
+        res.send('BAD REQUEST');
     }   
 });
 
